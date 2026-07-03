@@ -1,0 +1,427 @@
+{
+    "DUKW": {
+        "platform_type_sdn_name": "DUKW",
+        "platform_type_sdn_uri": "SDN:L06::9A",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/9A/"
+    },
+    "Ice-tethered subsurface profiling float": {
+        "platform_type_sdn_name": "Ice-tethered subsurface profiling float",
+        "platform_type_sdn_uri": "SDN:L06::4A",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/4A/"
+    },
+    "aeroplane": {
+        "platform_type_sdn_name": "aeroplane",
+        "platform_type_sdn_uri": "SDN:L06::62",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/62/"
+    },
+    "airship": {
+        "platform_type_sdn_name": "airship",
+        "platform_type_sdn_uri": "SDN:L06::54",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/54/"
+    },
+    "amphibious crawler": {
+        "platform_type_sdn_name": "amphibious crawler",
+        "platform_type_sdn_uri": "SDN:L06::96",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/96/"
+    },
+    "amphibious vehicle": {
+        "platform_type_sdn_name": "amphibious vehicle",
+        "platform_type_sdn_uri": "SDN:L06::95",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/95/"
+    },
+    "autogyro": {
+        "platform_type_sdn_name": "autogyro",
+        "platform_type_sdn_uri": "SDN:L06::69",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/69/"
+    },
+    "autonomous surface water vehicle": {
+        "platform_type_sdn_name": "autonomous surface water vehicle",
+        "platform_type_sdn_uri": "SDN:L06::3B",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/3B/"
+    },
+    "autonomous underwater vehicle": {
+        "platform_type_sdn_name": "autonomous underwater vehicle",
+        "platform_type_sdn_uri": "SDN:L06::25",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/25/"
+    },
+    "beach/intertidal zone structure": {
+        "platform_type_sdn_name": "beach/intertidal zone structure",
+        "platform_type_sdn_uri": "SDN:L06::13",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/13/"
+    },
+    "buoyant aircraft": {
+        "platform_type_sdn_name": "buoyant aircraft",
+        "platform_type_sdn_uri": "SDN:L06::50",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/50/"
+    },
+    "cetacean": {
+        "platform_type_sdn_name": "cetacean",
+        "platform_type_sdn_uri": "SDN:L06::75",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/75/"
+    },
+    "coastal structure": {
+        "platform_type_sdn_name": "coastal structure",
+        "platform_type_sdn_uri": "SDN:L06::17",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/17/"
+    },
+    "cryosphere": {
+        "platform_type_sdn_name": "cryosphere",
+        "platform_type_sdn_uri": "SDN:L06::90",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/90/"
+    },
+    "diver": {
+        "platform_type_sdn_name": "diver",
+        "platform_type_sdn_uri": "SDN:L06::72",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/72/"
+    },
+    "drift ice": {
+        "platform_type_sdn_name": "drift ice",
+        "platform_type_sdn_uri": "SDN:L06::94",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/94/"
+    },
+    "drifting manned submersible": {
+        "platform_type_sdn_name": "drifting manned submersible",
+        "platform_type_sdn_uri": "SDN:L06::24",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/24/"
+    },
+    "drifting subsurface float": {
+        "platform_type_sdn_name": "drifting subsurface float",
+        "platform_type_sdn_uri": "SDN:L06::44",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/44/"
+    },
+    "drifting subsurface profiling float": {
+        "platform_type_sdn_name": "drifting subsurface profiling float",
+        "platform_type_sdn_uri": "SDN:L06::46",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/46/"
+    },
+    "drifting surface float": {
+        "platform_type_sdn_name": "drifting surface float",
+        "platform_type_sdn_uri": "SDN:L06::42",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/42/"
+    },
+    "drillship": {
+        "platform_type_sdn_name": "drillship",
+        "platform_type_sdn_uri": "SDN:L06::3D",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/3D/"
+    },
+    "fish": {
+        "platform_type_sdn_name": "fish",
+        "platform_type_sdn_uri": "SDN:L06::76",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/76/"
+    },
+    "fishing vessel": {
+        "platform_type_sdn_name": "fishing vessel",
+        "platform_type_sdn_uri": "SDN:L06::36",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/36/"
+    },
+    "fixed benthic node": {
+        "platform_type_sdn_name": "fixed benthic node",
+        "platform_type_sdn_uri": "SDN:L06::11",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/11/"
+    },
+    "fixed subsurface vertical profiler": {
+        "platform_type_sdn_name": "fixed subsurface vertical profiler",
+        "platform_type_sdn_uri": "SDN:L06::45",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/45/"
+    },
+    "flightless bird": {
+        "platform_type_sdn_name": "flightless bird",
+        "platform_type_sdn_uri": "SDN:L06::73",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/73/"
+    },
+    "float": {
+        "platform_type_sdn_name": "float",
+        "platform_type_sdn_uri": "SDN:L06::47",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/47/"
+    },
+    "free-floating balloon": {
+        "platform_type_sdn_name": "free-floating balloon",
+        "platform_type_sdn_uri": "SDN:L06::52",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/52/"
+    },
+    "free-rising balloon": {
+        "platform_type_sdn_name": "free-rising balloon",
+        "platform_type_sdn_uri": "SDN:L06::51",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/51/"
+    },
+    "geostationary orbiting satellite": {
+        "platform_type_sdn_name": "geostationary orbiting satellite",
+        "platform_type_sdn_uri": "SDN:L06::64",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/64/"
+    },
+    "glider": {
+        "platform_type_sdn_name": "glider",
+        "platform_type_sdn_uri": "SDN:L06::6A",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/6A/"
+    },
+    "helicopter": {
+        "platform_type_sdn_name": "helicopter",
+        "platform_type_sdn_uri": "SDN:L06::67",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/67/"
+    },
+    "hovercraft": {
+        "platform_type_sdn_name": "hovercraft",
+        "platform_type_sdn_uri": "SDN:L06::9B",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/9B/"
+    },
+    "human": {
+        "platform_type_sdn_name": "human",
+        "platform_type_sdn_uri": "SDN:L06::71",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/71/"
+    },
+    "ice island": {
+        "platform_type_sdn_name": "ice island",
+        "platform_type_sdn_uri": "SDN:L06::91",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/91/"
+    },
+    "ice shelf": {
+        "platform_type_sdn_name": "ice shelf",
+        "platform_type_sdn_uri": "SDN:L06::92",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/92/"
+    },
+    "kite": {
+        "platform_type_sdn_name": "kite",
+        "platform_type_sdn_uri": "SDN:L06::6B",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/6B/"
+    },
+    "land or seafloor": {
+        "platform_type_sdn_name": "land or seafloor",
+        "platform_type_sdn_uri": "SDN:L06::10",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/10/"
+    },
+    "land-sea mammals": {
+        "platform_type_sdn_name": "land-sea mammals",
+        "platform_type_sdn_uri": "SDN:L06::77",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/77/"
+    },
+    "land/onshore structure": {
+        "platform_type_sdn_name": "land/onshore structure",
+        "platform_type_sdn_uri": "SDN:L06::14",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/14/"
+    },
+    "land/onshore vehicle": {
+        "platform_type_sdn_name": "land/onshore vehicle",
+        "platform_type_sdn_uri": "SDN:L06::15",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/15/"
+    },
+    "lowered unmanned submersible": {
+        "platform_type_sdn_name": "lowered unmanned submersible",
+        "platform_type_sdn_uri": "SDN:L06::26",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/26/"
+    },
+    "man-powered boat": {
+        "platform_type_sdn_name": "man-powered boat",
+        "platform_type_sdn_uri": "SDN:L06::38",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/38/"
+    },
+    "man-powered small boat": {
+        "platform_type_sdn_name": "man-powered small boat",
+        "platform_type_sdn_uri": "SDN:L06::3A",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/3A/"
+    },
+    "manned spacecraft": {
+        "platform_type_sdn_name": "manned spacecraft",
+        "platform_type_sdn_uri": "SDN:L06::66",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/66/"
+    },
+    "mesocosm bag": {
+        "platform_type_sdn_name": "mesocosm bag",
+        "platform_type_sdn_uri": "SDN:L06::19",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/19/"
+    },
+    "mesocosm tank": {
+    "platform_type_sdn_name": "mesocosm tank",
+        "platform_type_sdn_uri": "SDN:L06::99",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/99/"
+    },
+    "moored surface buoy": {
+        "platform_type_sdn_name": "moored surface buoy",
+        "platform_type_sdn_uri": "SDN:L06::41",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/41/"
+    },
+    "mooring": {
+    "platform_type_sdn_name": "mooring",
+        "platform_type_sdn_uri": "SDN:L06::48",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/48/"
+    },
+    "naval vessel": {
+        "platform_type_sdn_name": "naval vessel",
+        "platform_type_sdn_uri": "SDN:L06::39",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/39/"
+    },
+    "non-buoyant aircraft": {
+    "platform_type_sdn_name": "non-buoyant aircraft",
+        "platform_type_sdn_uri": "SDN:L06::60",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/60/"
+    },
+    "offshore structure": {
+    "platform_type_sdn_name": "offshore structure",
+        "platform_type_sdn_uri": "SDN:L06::16",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/16/"
+    },
+    "orbiting satellite": {
+    "platform_type_sdn_name": "orbiting satellite",
+        "platform_type_sdn_uri": "SDN:L06::65",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/65/"
+    },
+    "organism": {
+    "platform_type_sdn_name": "organism",
+        "platform_type_sdn_uri": "SDN:L06::70",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/70/"
+    },
+    "pack ice": {
+        "platform_type_sdn_name": "pack ice",
+        "platform_type_sdn_uri": "SDN:L06::93",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/93/"
+    },
+    "parachute": {
+        "platform_type_sdn_name": "parachute",
+        "platform_type_sdn_uri": "SDN:L06::6C",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/6C/"
+    },
+    "propelled manned submersible": {
+        "platform_type_sdn_name": "propelled manned submersible",
+        "platform_type_sdn_uri": "SDN:L06::21",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/21/"
+    },
+    "propelled unmanned submersible": {
+    "platform_type_sdn_name": "propelled unmanned submersible",
+        "platform_type_sdn_uri": "SDN:L06::22",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/22/"
+    },
+    "research aeroplane": {
+    "platform_type_sdn_name": "research aeroplane",
+        "platform_type_sdn_uri": "SDN:L06::61",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/61/"
+    },
+    "research vessel": {
+    "platform_type_sdn_name": "research vessel",
+        "platform_type_sdn_uri": "SDN:L06::31",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/31/"
+    },
+    "river station": {
+        "platform_type_sdn_name": "river station",
+        "platform_type_sdn_uri": "SDN:L06::18",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/18/"
+    },
+    "rocket": {
+        "platform_type_sdn_name": "rocket",
+        "platform_type_sdn_uri": "SDN:L06::63",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/63/"
+    },
+    "satellite": {
+        "platform_type_sdn_name": "satellite",
+        "platform_type_sdn_uri": "SDN:L06::68",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/68/"
+    },
+    "sea bed vehicle": {
+        "platform_type_sdn_name": "sea bed vehicle",
+        "platform_type_sdn_uri": "SDN:L06::12",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/12/"
+    },
+    "seabird and duck": {
+    "platform_type_sdn_name": "seabird and duck",
+        "platform_type_sdn_uri": "SDN:L06::74",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/74/"
+    },
+    "self-propelled boat": {
+    "platform_type_sdn_name": "self-propelled boat",
+        "platform_type_sdn_uri": "SDN:L06::37",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/37/"
+    },
+    "self-propelled small boat": {
+    "platform_type_sdn_name": "self-propelled small boat",
+        "platform_type_sdn_uri": "SDN:L06::33",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/33/"
+    },
+    "ship": {
+    "platform_type_sdn_name": "ship",
+        "platform_type_sdn_uri": "SDN:L06::30",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/30/"
+    },
+    "snowcat": {
+        "platform_type_sdn_name": "snowcat",
+        "platform_type_sdn_uri": "SDN:L06::97",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/97/"
+    },
+    "snowmobile": {
+        "platform_type_sdn_name": "snowmobile",
+        "platform_type_sdn_uri": "SDN:L06::98",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/98/"
+    },
+    "spacecraft": {
+    "platform_type_sdn_name": "spacecraft",
+        "platform_type_sdn_uri": "SDN:L06::6Z",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/6Z/"
+    },
+    "sub-surface gliders": {
+    "platform_type_sdn_name": "sub-surface gliders",
+        "platform_type_sdn_uri": "SDN:L06::27",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/27/"
+    },
+    "submersible": {
+        "platform_type_sdn_name": "submersible",
+        "platform_type_sdn_uri": "SDN:L06::20",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/20/"
+    },
+    "subsurface mooring": {
+        "platform_type_sdn_name": "subsurface mooring",
+        "platform_type_sdn_uri": "SDN:L06::43",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/43/"
+    },
+    "surface gliders": {
+        "platform_type_sdn_name": "surface gliders",
+        "platform_type_sdn_uri": "SDN:L06::3C",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/3C/"
+    },
+    "surface ice buoy": {
+        "platform_type_sdn_name": "surface ice buoy",
+        "platform_type_sdn_uri": "SDN:L06::49",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/49/"
+    },
+    "surface vessel": {
+        "platform_type_sdn_name": "surface vessel",
+        "platform_type_sdn_uri": "SDN:L06::3Z",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/3Z/"
+    },
+    "tethered balloon": {
+        "platform_type_sdn_name": "tethered balloon",
+        "platform_type_sdn_uri": "SDN:L06::53",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/53/"
+    },
+    "tethered floating pontoon": {
+    "platform_type_sdn_name": "tethered floating pontoon",
+        "platform_type_sdn_uri": "SDN:L06::55",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/55/"
+    },
+    "towed unmanned submersible": {
+    "platform_type_sdn_name": "towed unmanned submersible",
+        "platform_type_sdn_uri": "SDN:L06::23",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/23/"
+    },
+    "unknown": {
+    "platform_type_sdn_name": "unknown",
+        "platform_type_sdn_uri": "SDN:L06::0",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/0/"
+    },
+    "unmanned aerial vehicle": {
+        "platform_type_sdn_name": "unmanned aerial vehicle",
+        "platform_type_sdn_uri": "SDN:L06::6D",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/6D/"
+    },
+    "vessel at fixed position": {
+        "platform_type_sdn_name": "vessel at fixed position",
+        "platform_type_sdn_uri": "SDN:L06::34",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/34/"
+    },
+    "vessel of opportunity": {
+        "platform_type_sdn_name": "vessel of opportunity",
+        "platform_type_sdn_uri": "SDN:L06::32",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/32/"
+    },
+    "vessel of opportunity on fixed route": {
+        "platform_type_sdn_name": "vessel of opportunity on fixed route",
+        "platform_type_sdn_uri": "SDN:L06::35",
+        "platform_type_sdn_urn": "https://vocab.nerc.ac.uk/collection/L06/current/35/"
+    }
+}

@@ -1,0 +1,101 @@
+[server]
+enableStaticServing = true
+maxUploadSize = 200
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-Regular.ttf"
+style = "normal"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-Bold.ttf"
+style = "normal"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-Italic.ttf"
+style = "italic"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-BoldItalic.ttf"
+style = "italic"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-Light.ttf"
+style = "normal"
+weight = 300
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-Semibold.ttf"
+style = "normal"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-Black.ttf"
+style = "normal"
+weight = 900
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-LightItalic.ttf"
+style = "italic"
+weight = 300
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-SemiboldItalic.ttf"
+style = "italic"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Source Sans Pro"
+url = "app/static/source_sans_pro/SourceSansPro-BlackItalic.ttf"
+style = "italic"
+weight = 900
+
+[client]
+toolbarMode = "auto"
+showSidebarNavigation = true
+
+[theme]
+font = "Source Sans Pro"
+headingFont = "Source Sans Pro"
+base = "light"
+
+# Primary accent color.
+primaryColor = "#123A81"
+
+# Background color of the app.
+# backgroundColor = "#123A81"
+
+# Background color used for most interactive widgets.
+# secondaryBackgroundColor =
+
+# Color used for almost all text.
+# textColor =
+
+
+[logger]
+# Level of logging for Streamlit's internal logger: "error", "warning",
+# "info", or "debug".
+#
+# Default: "info"
+level = "info"
+
+# String format for logging messages. If logger.datetimeFormat is set,
+# logger messages will default to `%(asctime)s.%(msecs)03d %(message)s`.
+#
+# See Python's documentation for available attributes:
+# https://docs.python.org/3/library/logging.html#formatter-objects
+#
+# Default: "%(asctime)s %(message)s"
+messageFormat = "%(asctime)s %(message)s"

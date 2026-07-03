@@ -1,0 +1,166 @@
+{
+  "Portugal|null": {
+    "research_infrastructure": "Tagus and Sado estuaries System (TSS)",
+    "short_code": "TSS",
+    "data_owner": "CoLAB+ATLANTIC",
+    "country_code": "PT",
+    "edmo_code": "5952",
+    "edmo_uri": "https://edmo.seadatanet.org/report/5952",
+    "ror_code": "05avbyr67",
+    "ror_uri": "https://ror.org/05avbyr67",
+    "default_creators": [
+      {
+        "name": "Campuzano, Francisco",
+        "orcid": "0000-0002-6853-4952",
+        "role": "DataCollector"
+      }
+    ]
+  },
+
+  "Greece|null": {
+    "research_infrastructure": "North Aegean (NA)",
+    "short_code": "NA",
+    "data_owner": "HCMR",
+    "country_code": "GR",
+    "edmo_code": "3051",
+    "edmo_uri": "https://edmo.seadatanet.org/report/3051",
+    "ror_code": "038kffh84",
+    "ror_uri": "https://ror.org/038kffh84",
+    "default_creators": [
+      {
+        "name": "Frangoulis, Costantin",
+        "orcid": "0000-0002-3035-047X",
+        "role": "DataCollector"
+      }
+    ]
+  },
+
+  "Sweden|null": {
+    "research_infrastructure": "Baltic Sea (BB)",
+    "short_code": "BB",
+    "data_owner": "SMHI",
+    "country_code": "SE",
+    "edmo_code": "545",
+    "edmo_uri": "https://edmo.seadatanet.org/report/545",
+    "ror_code": "00hgzve81",
+    "ror_uri": "https://ror.org/00hgzve81",
+    "default_creators": [
+      {
+        "name": "Draca, Irena",
+        "orcid": "",
+        "role": "DataCollector"
+      },
+      {
+        "name": "Breviere, Emilie",
+        "orcid": "0000-0002-6847-4988",
+        "role": "DataCollector"
+      },
+      {
+        "name": "Stenström, Mikael",
+        "orcid": "",
+        "role": "DataCollector"
+      }
+    ]
+  },
+
+  "UK|Yes": {
+    "research_infrastructure": "Marinas",
+    "short_code": "Marinas",
+    "data_owner": "Transeurope Marinas",
+    "country_code": "UK",
+    "default_creators": [
+      {
+        "name": "Symes, Melanie",
+        "orcid": null,
+        "role": "DataCollector"
+      }
+    ]
+  },
+
+  "UK|No": {
+    "research_infrastructure": "Firth of Forth (FF)",
+    "short_code": "FF",
+    "data_owner": "USTIR",
+    "country_code": "UK",
+    "edmo_code": "2583",
+    "edmo_uri": "https://edmo.seadatanet.org/report/2583",
+    "ror_code": "045wgfr59",
+    "ror_uri": "https://ror.org/045wgfr59",
+    "default_creators": [
+      {
+        "name": "Spyrakos, Evangelos",
+        "orcid": "0000-0001-7970-5211",
+        "role": "DataCollector"
+      },
+      {
+        "name": "Tyler, Andrew",
+        "orcid": "0000-0003-0604-5827",
+        "role": "DataCollector"
+      },
+      {
+        "name": "Wilson, Harriet",
+        "orcid": "0000-0001-6930-1790",
+        "role": "DataCollector"
+      }
+    ]
+  },
+  "France|null": {
+    "research_infrastructure": "Seine Estuary and Bay (SEB)",
+    "short_code": "SEB",
+    "data_owner": "Ifremer",
+    "country_code": "FR",
+    "edmo_code": "1054",
+    "edmo_uri": "https://edmo.seadatanet.org/report/1054",
+    "ror_code": "044jhxp58",
+    "ror_uri": "https://ror.org/044jhxp58",
+    "default_creators": [
+      {
+        "name": "Verney, Romaric",
+        "orcid": "0000-0001-5860-1726",
+        "role": "DataCollector"
+      }
+    ]
+  },
+
+  "Romania|null": {
+    "research_infrastructure": "Danube Delta and coastal area (DD)",
+    "short_code": "DD",
+    "data_owner": "GeoEcoMar",
+    "country_code": "RO",
+    "edmo_code": "850",
+    "edmo_uri": "https://edmo.seadatanet.org/report/850",
+    "ror_code": "02qs41y18",
+    "ror_uri": "https://ror.org/02qs41y18",
+    "default_creators": [
+      {
+        "name": "Stanciu, Irina",
+        "orcid": "0000-0003-1842-6619",
+        "role": "DataCollector"
+      },
+      {
+        "name": "Stanica, Adrian",
+        "orcid": "0000-0001-5983-6302",
+        "role": "DataCollector"
+      }
+    ]
+  },
+
+  "The Netherlands|null": {
+    "research_infrastructure": "Wadden Sea, Rhine delta and Elbe Estuary (WSRE)",
+    "short_code": "WSRE",
+    "data_owner": "Deltares",
+    "country_code": "NL",
+    "edmo_code": "1528",
+    "edmo_uri": "https://edmo.seadatanet.org/report/1528",
+    "ror_code": "01deh9c76",
+    "ror_uri": "https://ror.org/01deh9c76",
+    "default_creators": [
+      {
+        "name": "Blauw, Anouk",
+        "orcid": "0000-0001-8975-9707",
+        "role": "DataCollector"
+      }
+    ]
+  }
+}
+

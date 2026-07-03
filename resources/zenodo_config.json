@@ -1,0 +1,24 @@
+{
+    "community_identifier": "landsealot-data",
+    "grant_agreement": "101134575",
+    "contributors": [
+        {
+            "name": "Dapueto, Giulia",
+            "orcid": "0000-0002-3263-5583",
+            "affiliation": "ETT",
+            "role": "DataCurator"
+        },
+        {
+            "name": "Bordoni, Rachele",
+            "orcid": "0000-0002-9734-3725",
+            "affiliation": "ETT",
+            "role": "DataCurator"
+        },
+        {
+            "name": "Novellino, Antonio",
+            "orcid": "0000-0003-4020-2056",
+            "affiliation": "ETT",
+            "role": "DataCurator"
+        }
+    ]
+}

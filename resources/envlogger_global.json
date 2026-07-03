@@ -1,0 +1,17 @@
+{
+"sensor_scoop_name": "EnvLogger",
+"sensor_scoop_uri": "https://www.scoop-ocean.org/catalogue/SCOOP5/envlogger",
+"sensor_scoop_urn": "SCOOP5",
+"sensor_sdn_name": "ElectricBlue EnvLoggerT7.3 temperature sensor",
+"sensor_sdn_uri": "https://vocab.nerc.ac.uk/collection/L22/current/TOOL2223/",
+"sensor_sdn_urn": "SDN:L22::TOOL2223",
+"sensor_manufacturer_sdn_name": "ElectricBlue",
+"sensor_manufacturer_sdn_uri": "https://vocab.nerc.ac.uk/collection/L35/current/MAN0363/",
+"sensor_manufacturer_sdn_urn": "SDN:L35::MAN0363",
+"sensor_accuracy": "0.2 °C",
+"sensor_precision": "±0.04 °C",
+"source": "Data was collected by using ElectricBlue EnvLogger sensor",
+"references": "Data was collected by using ElectricBlue EnvLogger sensor",
+"keywords": "Water Temperature, Earth Science > Oceans > Ocean Temperature > Water Temperature (46206e8c-8def-406f-9e62-da4e74633a58)",
+"data_format_original": "csv"
+}
