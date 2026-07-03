@@ -1,14 +1,14 @@
-from modules.utils import img_to_base64
-from modules.zenodo_uploader import upload_to_zenodo
+from modules.zenodo_uploader import upload_to_zenodo, update_zenodo_record
 from modules.validate_inputs import validate_inputs
 from modules.download import download_user_manual
-from modules.sections import envlogger_section
-from modules.email import send_email
-from parsers.envlogger import *
-from metadata.builder import build_metadata
 from metadata.zenodo import build_zenodo_metadata
+from modules.sections import envlogger_section
+from metadata.builder import build_metadata
+from modules.utils import img_to_base64
+from modules.email import send_email
 from metadata.xml import save_xml
 from metadata.txt import save_txt
+from parsers.envlogger import *
 from datetime import datetime
 import streamlit as st
 from config import *
@@ -52,7 +52,7 @@ sampling_resolution = None
 success_counter = None
 sensor_dirs = None
 
-st.set_page_config(page_title='LandSeaLot', page_icon = FAVICON) #, layout = 'wide', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='LandSeaLot', page_icon = FAVICON) 
 
 if st.session_state.get("submission_completed"):
     st.title("Thank you for contributing")
@@ -67,7 +67,6 @@ if st.session_state.get("submission_completed"):
     st.stop()
 
 ###### FORM START 
-
 # logo and title
 st.iframe(
     f"""
@@ -629,6 +628,47 @@ if submit:
                             df,
                             gps_df
                         )
+                        # Determine latitude/longitude column names
+                        lat_col = None
+                        lon_col = None
+
+                        if "latitude" in df.columns and "longitude" in df.columns:
+                            lat_col = "latitude"
+                            lon_col = "longitude"
+                        elif "ALATZZ01" in df.columns and "ALONZZ01" in df.columns:
+                            lat_col = "ALATZZ01"
+                            lon_col = "ALONZZ01"
+
+                        # Update global spatial extent
+                        if lat_col and lon_col:
+                            current_min_lat = df[lat_col].min()
+                            current_max_lat = df[lat_col].max()
+                            current_min_lon = df[lon_col].min()
+                            current_max_lon = df[lon_col].max()
+
+                            min_lat = (
+                                current_min_lat
+                                if min_lat is None
+                                else min(min_lat, current_min_lat)
+                            )
+
+                            max_lat = (
+                                current_max_lat
+                                if max_lat is None
+                                else max(max_lat, current_max_lat)
+                            )
+
+                            min_lon = (
+                                current_min_lon
+                                if min_lon is None
+                                else min(min_lon, current_min_lon)
+                            )
+
+                            max_lon = (
+                                current_max_lon
+                                if max_lon is None
+                                else max(max_lon, current_max_lon)
+                            )
     
                     start_date = (
                         df["time"]
@@ -673,6 +713,17 @@ if submit:
                 custom_name=custom_name
             )
 
+            zenodo_payload = build_zenodo_metadata(
+                parsed_metadata, min_start_date, max_end_date
+            )
+
+            success, json_response, doi, zenodo_id = upload_to_zenodo(
+                sensor_dir,
+                zenodo_payload,
+            )
+
+            parsed_metadata["global_attributes"]["data_doi"] = doi
+
             save_txt(
                 parsed_metadata,
                 os.path.join(
@@ -680,7 +731,7 @@ if submit:
                     "processed",
                     "metadata.txt",
                 ),
-                dfs_columns.get(sensor_id, {}).get(filename, [])
+                dfs_columns.get(sensor_id, {}).get(filename, []),
             )
 
             save_xml(
@@ -691,24 +742,22 @@ if submit:
                     "metadata.xml",
                 ),
             )
-    
-            zenodo_payload = build_zenodo_metadata(
-                parsed_metadata,
-                min_start_date,
-                max_end_date
-            )
 
-            success, json_response = upload_to_zenodo(
+            success, json_response = update_zenodo_record(
                 sensor_dir,
                 zenodo_payload,
+                doi, 
+                zenodo_id
             )
-    
-            upload_results.append({
-                "sensor_id": sensor_id,
-                "success": success,
-                "response": json_response,
-            })
-    
+
+            upload_results.append(
+                {
+                    "sensor_id": sensor_id,
+                    "success": success,
+                    "response": json_response,
+                }
+            )
+
             send_email(upload_results, warning)
     
             if success:

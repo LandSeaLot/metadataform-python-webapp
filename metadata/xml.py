@@ -1,4 +1,4 @@
-from pygeometa.schemas.iso19139_2 import ISO19139_2OutputSchema
+from pygeometa.schemas.iso19139 import ISO19139OutputSchema
 from pygeometa.core import read_mcf
 from config import *
 import datetime
@@ -193,6 +193,7 @@ def build_main_mcf(
             or "dataset"
         ),
         "charset": "utf8",
+        "language": "en", # for geonetwork to work
         "hierarchylevel": "dataset",
         "datestamp": now,
     }
@@ -244,12 +245,6 @@ def build_main_mcf(
                 "",
             ),
         },
-        "rights": {
-            "en": ga.get(
-                "data_owner",
-                "",
-            )
-        },
         "url": ga.get(
             "infoUrl",
             "",
@@ -269,76 +264,6 @@ def build_main_mcf(
     mcf["dataquality"] = {}
 
 
-# new simpler version
-# def build_contacts(
-#     mcf,
-#     parsed_metadata,
-#     used_fields,
-# ):
-#     ga = parsed_metadata.get(
-#         "global_attributes",
-#         {},
-#     )
-# 
-#     contacts = {}
-# 
-#     # ------------------------------------------------------------------
-#     # Dataset owner
-#     # ------------------------------------------------------------------
-# 
-#     if ga.get("data_owner"):
-#         contacts["owner"] = {
-#             "organization": ga.get("data_owner"),
-#             "country": ga.get("data_owner_country"),
-#             "url": ga.get("data_owner_ror_uri"),
-#         }
-# 
-#         used_fields.update({
-#             "data_owner",
-#             "data_owner_country",
-#             "data_owner_country_code",
-#             "data_owner_edmo_code",
-#             "data_owner_edmo_uri",
-#             "data_owner_ror_code",
-#             "data_owner_ror_uri",
-#         })
-# 
-#     # ------------------------------------------------------------------
-#     # Data curator
-#     # ------------------------------------------------------------------
-# 
-#     if ga.get("data_curator"):
-#         contacts["custodian"] = {
-#             "organization": ga.get("data_curator"),
-#             "url": ga.get("data_curator_ror_uri"),
-#         }
-# 
-#         used_fields.update({
-#             "data_curator",
-#             "data_curator_edmo_code",
-#             "data_curator_edmo_uri",
-#             "data_curator_ror_code",
-#             "data_curator_ror_uri",
-#         })
-# 
-#     # ------------------------------------------------------------------
-#     # Distributor
-#     # ------------------------------------------------------------------
-# 
-#     if ga.get("distributor_name"):
-#         contacts["distributor"] = {
-#             "organization": ga.get("distributor_name"),
-#             "url": ga.get("distributor_url"),
-#         }
-# 
-#         used_fields.update({
-#             "distributor_name",
-#             "distributor_url",
-#         })
-# 
-#     mcf["contact"] = contacts
-
-
 def build_contacts(
     mcf,
     parsed_metadata,
@@ -352,7 +277,6 @@ def build_contacts(
     contacts = {}
 
     # Data owner
-
     if ga.get("data_owner"):
         contacts["owner"] = {
             "organization": ga.get("data_owner"),
@@ -373,7 +297,6 @@ def build_contacts(
         )
 
     # Distributor
-
     if ga.get("distributor_name"):
         contacts["distributor"] = {
             "organization": ga.get("distributor_name"),
@@ -388,7 +311,6 @@ def build_contacts(
         )
 
     # Data curator
-
     if ga.get("data_curator"):
         contacts["custodian"] = {
             "organization": ga.get("data_curator"),
@@ -568,7 +490,7 @@ def generate_xml(parsed_metadata):
 
     mcf = read_mcf(mcf)
 
-    schema = ISO19139_2OutputSchema()
+    schema = ISO19139OutputSchema()
 
     return schema.write(mcf)
 

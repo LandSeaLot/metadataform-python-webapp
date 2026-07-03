@@ -1,16 +1,16 @@
 services:
-  landsealot-streamlitwebapp-python:
+  landsealot-metadataform-python-webapp:
     ports:
       - 8501:8501
-    container_name: landsealot-streamlitwebapp-python
+    container_name: landsealot-metadataform-python-webapp
     build: .
     volumes:
       - type: bind
-        source: C:\Users\vglptr88t\Progetti\LANDSEALOT\landsealot-streamlit\config.py
+        source: 
         target: /app/config.py
       - type: bind
-        source: C:\Users\vglptr88t\Progetti\LANDSEALOT\landsealot-streamlit\data
+        source: 
         target: /app/data
       - type: bind
-        source: C:\Users\vglptr88t\Progetti\LANDSEALOT\landsealot-streamlit\static
+        source: 
         target: /app/static

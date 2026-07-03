@@ -22,12 +22,15 @@ def generate_txt(parsed_metadata, columns):
 
             if creator.get("name"):
                 creator_names.append(creator["name"])
-                creator_orcids.append(creator.get("orcid", ""))
+                creator_orcid = creator.get("orcid", "")
+                if creator_orcid is None:
+                    creator_orcid = ""
+                creator_orcids.append(creator_orcid)
                 creator_roles.append(creator.get("role", ""))
 
         global_attributes["creator_name"] = ";".join(creator_names)
 
-        global_attributes["creator_orcid"] = ";".join(creator_orcids)
+        global_attributes["creator_orcid"] = ";".join([c for c in creator_orcids])
 
         global_attributes["creator_role"] = ";".join(creator_roles)
 
@@ -45,7 +48,10 @@ def generate_txt(parsed_metadata, columns):
 
             if contributor.get("name"):
                 contributor_names.append(contributor["name"])
-                contributor_orcids.append(contributor.get("orcid", ""))
+                contributor_orcid = contributor.get("orcid", "")
+                if contributor_orcid is None:
+                    contributor_orcid = ""
+                contributor_orcids.append(contributor_orcid)
                 contributor_roles.append(contributor.get("role", ""))
 
         global_attributes["contributors_name"] = ";".join(contributor_names)
@@ -81,11 +87,6 @@ def generate_txt(parsed_metadata, columns):
     flattened_attrs = {}
 
     for key, value in sorted_global_attributes.items():
-        # if not value or value == "null":
-        #     continue
-        # if key in ["sensor_id", "summary"]:
-        #     continue
-
         if isinstance(value, dict):
             lines.append(f"{key}:")
             for sub_key, sub_value in value.items():

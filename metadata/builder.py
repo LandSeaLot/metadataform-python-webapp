@@ -63,6 +63,10 @@ def build_metadata(
     global_attributes["data_owner_marinas"] = marinas if marinas else "No"
 
     global_attributes["user_type"] = user_metadata.get("user_type")
+    if user_metadata.get("user_type") == "Citizen":
+        global_attributes["platform_type_sdn_name"] = "human"
+        global_attributes["platform_type_sdn_uri"] = "SDN:L06::71"
+        global_attributes["platform_type_sdn_urn"] = "https://vocab.nerc.ac.uk/collection/L06/current/71/"
 
     # LIL metadata
     global_attributes["research_infrastructure"] = lil["research_infrastructure"]

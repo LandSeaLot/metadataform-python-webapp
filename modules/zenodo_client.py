@@ -58,11 +58,9 @@ class Zenodo:
             res = self.update(
                 deposition_id=deposition_id, data=data, paths=paths, publish=publish
             )
-            #! _get_deposition?
 
             return res
 
-        # print("Creating new Zenodo record")
         res = self.create(data=data, paths=paths, publish=publish)
         return res
 

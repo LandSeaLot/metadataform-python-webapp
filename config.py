@@ -49,6 +49,7 @@ EMAIL_CREDENTIALS = {
 }
 
 EMAIL_RECIPIENTS = [
+    "pietro.viglino@dedagroup.it"
 ]
 
 # ENVLOGGER
